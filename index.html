@@ -1,0 +1,23 @@
+<!DOCTYPE html> <!-- このファイルがHTMLであることを宣言する -->
+<html> <!-- htmlとしての処理を始める的な何か -->
+<head> <!-- headはここからです -->
+  <meta charset="UTF-8"> <!-- おまじない -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- スマホ対応のおまじない -->
+  <script src="https://cdn.tailwindcss.com"></script> <!-- Tailwind CSSを読み込む -->
+  <title>Example Site</title> <!-- ページのタイトルを決めるよ -->
+</head> <!-- headはここまでです -->
+<body class="bg-zinc-100 dark:bg-zinc-800 text-slate-500 dark:text-slate-200 antialiased"><!-- bodyはここからです -->
+<nav class="bg-white/40 border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-zinc-900/30 backdrop-blur sticky top-0 z-10 select-none"><!-- いい感じのヘッダーを… -->
+  <div class="flex flex-wrap items-center justify-between mx-auto pl-7 pr-7">
+    <a href="/First-Web-Site/index.html" class="flex items-center"><!-- トップページへのリンク -->
+        <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Example</span> <!-- サイト名的なかんじ？ -->
+    </a>
+    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+    </div>
+  </div>
+</nav><!-- navおわり -->
+<div class="bg-white dark:bg-zinc-700 dark:border-zinc-600 rounded-lg border-gray-300 border p-3 m-4 text-center"> <!-- md:でPCときのみの処理を追加する -->
+    <p class="text-xl">HelloWorld</p><!-- xlくらいの大きさ(?)でHelloWorldと表示する -->
+  </div>
+</body> <!-- bodyはここまでです -->
+</html> <!-- htmlはここまでです -->
