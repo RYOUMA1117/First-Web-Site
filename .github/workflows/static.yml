@@ -25,7 +25,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}/First-Web-Site
+      url: ${{ steps.deployment.outputs.page_url }}First-Web-Site/
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
