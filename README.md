@@ -1,2 +1,2 @@
 # First-Web-Site
-[かっこいいサイトを作ってみよう](https://www.ryouma.dev/make-a-cool-site/)で作成したサイトのソースコードです。
+[かっこいいサイトを作ってみよう](https://www.ryouma.dev/make-a-cool-site/){:target="_blank"}で作成したサイトのソースコードです。
